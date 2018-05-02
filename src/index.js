@@ -1,7 +1,7 @@
-var qtumjs = require('bitcoinjs-lib')
+var recryptjs = require('bitcoinjs-lib')
 
-Object.assign(qtumjs.networks, require('./networks'))
+Object.assign(recryptjs.networks, require('./networks'))
 
-qtumjs.utils = require('./utils')
+recryptjs.utils = require('./utils')
 
-module.exports = qtumjs
+module.exports = recryptjs
